@@ -1,0 +1,38 @@
+p.title {
+	font-family: 'Clicker Script', cursive;
+	size: 80px;
+	text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.subtitle {
+	font-family: 'Open Sans', sans-serif;
+	/*size: 40px;*/
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.content {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.description {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+	height: 100%;
+	background-color:lavender;
+}
+.left {
+	background-color: white; 
+
+}
+.right {
+	background-color: white; 
+}
+.sub-section {
+	margin-top: 2%; 
+	margin-bottom: 2%; 
+}
