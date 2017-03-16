@@ -1,0 +1,57 @@
+body {
+	text-align: center;/*
+	background-image: "images/dating-quotes-2.jpg"*/
+	font-family: 'Open Sans', sans-serif;
+}
+.left {
+	background-color: white; 
+
+}
+.right {
+	background-color: white; 
+}
+.main {
+	height: 150%;
+	background-color:lavender;
+
+}
+.photo {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.title {
+	font-family:'Clicker Script', cursive;
+	size: 100px;
+	margin-top: 10%;
+    margin-bottom: 5%;
+}
+.subtitle {
+/*	font-family: 'Open Sans', sans-serif;
+*/	/*size: 40px;*/
+	margin-bottom: 2%;
+	/*text-align: center;*/
+}
+
+.content {
+/*	font-family: 'Open Sans', sans-serif;
+	text-align: center;*/
+}
+
+
+.filler {
+	margin-bottom: 65%;
+}
+.footer {
+	margin-bottom: 5%;
+}
+
+.description {
+/*	font-family: 'Open Sans', sans-serif;
+*/}
+
+
+.sub-section {
+	margin-top: 2%; 
+	margin-bottom: 4%; 
+	text-align: center;
+}
