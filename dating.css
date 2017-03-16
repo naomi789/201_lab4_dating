@@ -1,29 +1,12 @@
-p.title {
-	font-family: 'Clicker Script', cursive;
-	size: 80px;
+body {
 	text-align: center;
-    margin-top: 10%;
-    margin-bottom: 5%;
-}
-.subtitle {
 	font-family: 'Open Sans', sans-serif;
-	/*size: 40px;*/
-	margin-bottom: 2%;
-	text-align: center;
+	background-image: "images/dating-quotes-2.jpg"
 }
-
-.content {
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-}
-
-.description {
-	font-family: 'Open Sans', sans-serif;
-}
-
 .main {
 	height: 100%;
 	background-color:lavender;
+
 }
 .left {
 	background-color: white; 
@@ -32,8 +15,39 @@ p.title {
 .right {
 	background-color: white; 
 }
+.title {
+/*	font-family:'Clicker Script', cursive;*/
+	size: 100px;
+	margin-top: 10%;
+    margin-bottom: 5%;
+}
+.subtitle {
+/*	font-family: 'Open Sans', sans-serif;
+*/	/*size: 40px;*/
+	margin-bottom: 2%;
+	/*text-align: center;*/
+}
+
+.content {
+/*	font-family: 'Open Sans', sans-serif;
+	text-align: center;*/
+}
+
+
+.filler {
+	margin-bottom: 65%;
+}
+.footer {
+	margin-bottom: 5%;
+}
+
+.description {
+/*	font-family: 'Open Sans', sans-serif;
+*/}
+
+
 .sub-section {
 	margin-top: 2%; 
-	margin-bottom: 2%; 
+	margin-bottom: 4%; 
 	text-align: center;
 }
