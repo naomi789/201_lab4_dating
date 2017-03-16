@@ -1,12 +1,7 @@
 body {
-	text-align: center;
+	text-align: center;/*
+	background-image: "images/dating-quotes-2.jpg"*/
 	font-family: 'Open Sans', sans-serif;
-	background-image: "images/dating-quotes-2.jpg"
-}
-.main {
-	height: 100%;
-	background-color:lavender;
-
 }
 .left {
 	background-color: white; 
@@ -15,8 +10,17 @@ body {
 .right {
 	background-color: white; 
 }
+.main {
+	height: 100%;
+	background-color:lavender;
+
+}
+.photo {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 .title {
-/*	font-family:'Clicker Script', cursive;*/
+	font-family:'Clicker Script', cursive;
 	size: 100px;
 	margin-top: 10%;
     margin-bottom: 5%;
