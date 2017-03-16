@@ -8,36 +8,35 @@ var router = express.Router();
 var pokemon = [
   {
     name: 'Aaleigh',
-    avatarUrl: 'http://rs795.pbsrc.com/albums/yy232/PixKaruumi/Pokemon%20Pixels/Pikachu_Icon__free__by_Aminako.gif~c200'
+    avatarUrl: 'http://coolwildlife.com/wp-content/uploads/galleries/post-3004/Fox%20Picture%20003.jpg'
   },
   {
     name: 'Aaronica',
-    avatarUrl: 'http://24.media.tumblr.com/tumblr_ma0tijLFPg1rfjowdo1_500.gif'
-
+    avatarUrl: 'http://coolwildlife.com/wp-content/uploads/galleries/post-3004/Fox%20Picture%20003.jpg' 
   },
   {
     name: 'Benzley',
-    avatarUrl: 'http://media3.giphy.com/media/J5JrPT8r1xGda/giphy.gif'
+    avatarUrl: 'https://previews.123rf.com/images/zigf/zigf1306/zigf130600073/20384538-portrait-of-charming-young-beautiful-short-haired-woman-in-profile-photographs-against-background-of-Stock-Photo.jpg' 
   },
   {
     name: 'Bergetta',
-    avatarUrl: 'http://rs1169.pbsrc.com/albums/r511/nthndo/tumblr_ljsx6dPMNm1qii50go1_400.gif~c200'
+    avatarUrl: 'https://cdn.pixabay.com/photo/2016/05/31/22/30/india-1427989_960_720.jpg'
   },
   {
     name: 'Chanice',
-    avatarUrl: 'http://media1.giphy.com/media/pTh2K2xTJ1nag/giphy.gif'
+    avatarUrl: 'https://c1.staticflickr.com/3/2936/14387367072_85312c31b3_b.jpg'
   },
   {
     name: 'Charlesa',
-    avatarUrl: 'https://s-media-cache-ak0.pinimg.com/originals/7e/3b/67/7e3b67c53469cc4302035be70a7f2d60.gif'
+    avatarUrl: 'https://cdn.pixabay.com/photo/2015/05/31/21/22/women-792680_960_720.jpg'
   },
   {
     name: 'Corwyn',
-    avatarUrl: 'http://coolwildlife.com/wp-content/uploads/galleries/post-3004/Fox%20Picture%20003.jpg'
+    avatarUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Tanzanian_women.jpg'
   },
   {
     name: 'Daquari',
-    avatarUrl: 'http://coolwildlife.com/wp-content/uploads/galleries/post-3004/Fox%20Picture%20003.jpg'
+    avatarUrl: 'https://cdn.pixabay.com/photo/2016/01/08/21/17/women-1129250_960_720.jpg'
   },
   {
     name: 'DaRhonda',
@@ -257,6 +256,11 @@ router.get('/activity', function(req, res) {
   console.log("In Activity");
   res.sendFile('index.html', { root: 'public'}); 
   res.send(activity);
+});
+router.get('/man', function(req, res) {
+  console.log("In Man");
+  res.sendFile('index.html', { root: 'public'}); 
+  res.send(man);
 });
 
 router.post('/pokemon', function(req, res) {
